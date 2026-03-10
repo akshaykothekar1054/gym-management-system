@@ -59,7 +59,7 @@ const ForgetPasswordPage = props => {
                 <CardBody className="pt-0">
                   <h3 className="text-center mt-5 mb-4">
                     <Link to="/" className="d-block auth-logo">
-                      <img src={logoDark} alt="" height="30" className="auth-logo-dark" />
+                      <img src={logoDark} alt="" height="120" className="auth-logo-dark" />
                       <img src={logoLight} alt="" height="30" className="auth-logo-light" />
                     </Link>
                   </h3>
