@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Container, Row, Col, Card, CardBody, Label, Form, Alert, Input, FormFeedback } from 'reactstrap';
-import logoDark from "../../assets/images/logo-dark.png";
-import logoLight from "../../assets/images/logo-dark.png";
+// import logoDark from "../../assets/images/logo-dark.png";
+// import logoLight from "../../assets/images/logo-dark.png";
+import logoDark from "../../assets/images/logo/light.png";
+import logoLight from "../../assets/images/logo/dark.png";
 import { useSelector, useDispatch } from "react-redux";
 import { createSelector } from "reselect";
 import PropTypes from "prop-types";
@@ -16,7 +18,7 @@ import withRouter from 'components/Common/withRouter';
 import { loginUser, socialLogin } from "../../store/actions";
 
 const Login = props => {
-  document.title = "Login | Lexa - Responsive Bootstrap 5 Admin Dashboard";
+  document.title = "Login | SpartanX";
 
   const dispatch = useDispatch();
 
@@ -71,7 +73,7 @@ const Login = props => {
 
                   <h3 className="text-center mt-5 mb-4">
                     <Link to="/" className="d-block auth-logo">
-                      <img src={logoDark} alt="" height="30" className="auth-logo-dark" />
+                      <img src={logoDark} alt="" height="120" className="auth-logo-dark" />
                       <img src={logoLight} alt="" height="30" className="auth-logo-light" />
                     </Link>
                   </h3>
@@ -132,7 +134,7 @@ const Login = props => {
                           </div>
                         </div>
                         <div className="col-6 text-end">
-                          <button className="btn btn-primary w-md waves-effect waves-light" type="submit">Log In</button>
+                          <button className="btn  w-md waves-effect waves-light" type="submit" style={{backgroundColor : '#b54243',color:'white'}}>Log In</button>
                         </div>
                       </Row>
                       <Row className="form-group mb-0">
