@@ -15,8 +15,6 @@ import ProfileMenu from "../CommonForBoth/TopbarDropdown/ProfileMenu"
 
 // import megamenuImg from "../../assets/images/megamenu-img.png"
 import logo from "../../assets/images/logo-sm.png"
-import logoLightPng from "../../assets/images/logo-light.png"
-import logoDark from "../../assets/images/logo-dark.png"
 import horizontallogo from "../../assets/images/horizontal-light.png"
 import horizontaldarklogo from "../../assets/images/horizontal-dark.png"
 
